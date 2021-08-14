@@ -1,0 +1,48 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Greetings",
+                "Greeting",
+                "Hello",
+                "Good day",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hi, I am Clever Brain. How can I help you today ?"
+            ]
+        },
+        {
+            "tag": "about Clever Brain",
+            "patterns": [
+                "who are you",
+                "what is your name"
+            ],
+            "responses": [
+                "I am Clever Brain. How can I help you today ?."
+            ]
+        },
+        {
+            "tag": "purpose",
+            "patterns": [
+                "what are you doing",
+                "are you busy"
+            ],
+            "responses": [
+                "I have been busy, I am helping people who have questions about Clever Brain Technologies."
+            ]
+        },
+        {
+            "tag": "ok",
+            "patterns": [
+                "ok"
+            ],
+            "responses": [
+                "Are there any other questions I can help you with?"
+            ]
+        }
+    ]
+}
