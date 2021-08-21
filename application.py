@@ -288,7 +288,8 @@ def chatbot():
         history = get_history.History()
         disp_t = request.form.get('disp_t')
         UIProtocolHostName = request.form.get('UIProtocolHostName')
-        user_chat = request.headers.get('conv')
+        #user_chat = request.headers.get('conv')
+        user_chat = request.form.get('conv')
         uid = request.args['uid']
         is_recommend = False
         try:
